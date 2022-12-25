@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: yellow;
+  position: fixed;
+  height: calc(100vh - var(--height-footer));
+  overflow: auto;
+  z-index: 9999;
+  width: var(--width-sidebar);
+}

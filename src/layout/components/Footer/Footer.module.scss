@@ -1,0 +1,8 @@
+.wrapper {
+  position: fixed;
+  top: calc(100vh - var(--height-footer));
+  z-index: 1000;
+  width: 100%;
+  height: var(--height-footer);
+  background-color: red;
+}
