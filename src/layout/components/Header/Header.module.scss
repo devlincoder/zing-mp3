@@ -1,8 +1,74 @@
 .wrapper {
   background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 1000;
   position: fixed;
   height: var(--height-header);
-  width: 100%;
+  width: calc(100% - var(--width-sidebar));
   padding: 0 var(--padding-content);
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.historyBtn {
+  margin-right: 20px;
+  color: black;
+  cursor: pointer;
+  .icon {
+    font-size: 20px;
+    // opacity: .3;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 20px;
+  padding: 10px;
+  width: 440px;
+  max-width: 440px;
+  height: 40px;
+  .icon {
+    font-size: 20px;
+    opacity: 0.6;
+  }
+  input {
+    height: 25px;
+    font-size: 15px;
+    border: none;
+    margin: 0 5px;
+    padding: 2px 5px;
+    width: 100%;
+  }
+}
+
+.btn {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --width-btn: 40px;
+  width: var(--width-btn);
+  height: var(--width-btn);
+  font-size: 20px;
+  background-color: red;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.avatar {
+  img {
+    --width-btn: 40px;
+    width: var(--width-btn);
+    height: var(--width-btn);
+    border-radius: 100%;
+    cursor: pointer;
+  }
 }
