@@ -11,7 +11,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import clsx from "clsx";
 import style from "./Header.module.scss";
 
-const Header = () => {
+const Header = ({isScrolled}) => {
+
   const backHistory = () => {
     window.history.back();
   };
@@ -21,7 +22,7 @@ const Header = () => {
   };
 
   return (
-    <div className={clsx(style.wrapper)}>
+    <div className={isScrolled ? clsx(style.wrapper, style.scroll) : clsx(style.wrapper)}>
       {/* ------------------LEFT--------------------- */}
       <div className={clsx(style.left)}>
         <div className={clsx(style.historyBtn)} onClick={backHistory}>

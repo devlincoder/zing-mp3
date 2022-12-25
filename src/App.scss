@@ -2,20 +2,19 @@
   margin: 0;
   padding: 0;
   top: 0;
+  font-family: Inter,sans-serif;
   box-sizing: border-box;
   user-select: none;
   -webkit-user-select: none;
 }
 
 :root {
-  --white: #e3e3e3;
-  --orange: #f95959;
-  --gray: #455d7a;
-  --black: #233142;
   --padding-content: 60px;
   --height-footer : 90px;
   --height-header : 70px;
   --width-sidebar : 237px;
+
+
 }
 a {
   text-decoration: none;

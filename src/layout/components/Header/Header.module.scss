@@ -1,5 +1,4 @@
 .wrapper {
-  background-color: green;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +6,12 @@
   position: fixed;
   height: var(--height-header);
   width: calc(100% - var(--width-sidebar));
+  margin-left: var(--width-sidebar);
   padding: 0 var(--padding-content);
+}
+
+.scroll {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .left,
@@ -19,11 +23,10 @@
 .historyBtn {
   margin-right: 20px;
   color: black;
-  cursor: pointer;
   .icon {
     font-size: 20px;
-    // opacity: .3;
   }
+  cursor: pointer;
 }
 
 .search {
