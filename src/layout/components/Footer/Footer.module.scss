@@ -4,94 +4,95 @@
   z-index: 1000;
   width: 100%;
   height: var(--height-footer);
-  background-color: red;
+  background-color: var(--blue-1);
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid var(--blue-3);
+  color: var(--blue-4);
 }
 
-.left,.right{
+.left,
+.right {
   width: 30%;
 }
-.menu{
+.menu {
   width: 40%;
 }
 
-
-.left{
+.left {
   display: flex;
   align-items: center;
-  img{
-    --width-image:64px;
+  img {
+    --width-image: 64px;
     width: var(--width-image);
     height: var(--width-image);
     border-radius: 10px;
     margin-right: 10px;
   }
-  .info{
+  .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .namesong{
+  .namesong {
     font-size: 14px;
   }
-  .namesinger{
+  .namesinger {
     font-size: 12px;
   }
-  .icon{
+  .icon {
     margin-left: 20px;
     font-size: 17px;
   }
 }
 
-.right{
+.right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  .icon{
+  .icon {
     margin-left: 10px;
   }
-  .volume{
+  .volume {
     width: 100px;
     height: 5px;
     border-radius: 10px;
-    background-color: yellow;
+    background-color: var(--blue-3);
     margin-left: 10px;
     cursor: pointer;
   }
 }
 
-.menu{
+.menu {
   // width: 100%;
   margin: 0 20px;
-  .listMenu{
+  .listMenu {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    .item{
-      --width-icon:50px;
+    .item {
+      --width-icon: 50px;
       width: var(--width-icon);
       height: var(--width-icon);
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    .icon{
-      
+    .icon {
       font-size: 20px;
     }
   }
 
-  .timer{
+  .timer {
     display: flex;
     align-items: center;
-    .duration{
+    .duration {
       width: 100%;
       height: 3px;
       border-radius: 10px;
-      background-color: blue;
+      background-color: var(--blue-3);
       margin: 0 10px;
     }
   }

@@ -8,6 +8,8 @@
   width: calc(100% - var(--width-sidebar));
   margin-left: var(--width-sidebar);
   padding: 0 var(--padding-content);
+  background-color: var(--blue-1);
+  color: var(--blue-4);
 }
 
 .scroll {
@@ -22,7 +24,6 @@
 
 .historyBtn {
   margin-right: 20px;
-  color: black;
   .icon {
     font-size: 20px;
   }
@@ -32,7 +33,7 @@
 .search {
   display: flex;
   align-items: center;
-  background-color: yellow;
+  background-color: var(--blue-2);
   border-radius: 20px;
   padding: 10px;
   width: 440px;
@@ -44,11 +45,14 @@
   }
   input {
     height: 25px;
+    background-color: var(--blue-2);
+    color: var(--blue-4);
     font-size: 15px;
     border: none;
     margin: 0 5px;
     padding: 2px 5px;
     width: 100%;
+    outline: none;
   }
 }
 
@@ -61,7 +65,7 @@
   width: var(--width-btn);
   height: var(--width-btn);
   font-size: 20px;
-  background-color: red;
+  background-color: var(--blue-2);
   margin-right: 12px;
   cursor: pointer;
 }

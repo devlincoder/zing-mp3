@@ -1,5 +1,6 @@
 .wrapper {
-  background-color: yellow;
+  background-color: var(--blue-2);
+  color: var(--blue-4);
   position: fixed;
   height: calc(100vh - var(--height-footer));
   z-index: 100;
@@ -45,8 +46,8 @@
 }
 
 .active {
-  color: red;
-  background-color: green;
+  color: var(--blue-2);
+  background-color: var(--blue-3);
 }
 
 .line {
@@ -55,7 +56,7 @@
 }
 
 .lineActive {
-  background-color: red;
+  background-color: var(--blue-4);
 }
 
 .link {
