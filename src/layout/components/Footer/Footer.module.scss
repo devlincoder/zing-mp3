@@ -4,13 +4,13 @@
   z-index: 1000;
   width: 100%;
   height: var(--height-footer);
-  background-color: var(--blue-1);
+  background-color: var(--blue-2);
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid var(--blue-3);
-  color: var(--blue-4);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: black;
 }
 
 .left,
@@ -59,14 +59,13 @@
     width: 100px;
     height: 5px;
     border-radius: 10px;
-    background-color: var(--blue-3);
+    background-color: var(--blue-4);
     margin-left: 10px;
     cursor: pointer;
   }
 }
 
 .menu {
-  // width: 100%;
   margin: 0 20px;
   .listMenu {
     display: flex;
@@ -92,8 +91,12 @@
       width: 100%;
       height: 3px;
       border-radius: 10px;
-      background-color: var(--blue-3);
+      background-color: var(--blue-4);
       margin: 0 10px;
+      cursor: pointer;
+      &:hover{
+        height: 5px;
+      }
     }
   }
 }

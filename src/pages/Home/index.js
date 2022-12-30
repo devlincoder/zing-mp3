@@ -1,12 +1,13 @@
 import clsx from "clsx";
 import style from "./Home.module.scss";
-import BooksLists from "./BooksList";
+import Slideshow from "./Slideshow";
 
 const Home = () => {
   return (
     <div className={clsx(style.wrapper)}>
-      <BooksLists />
+      <Slideshow />
     </div>
+
   );
 };
 
