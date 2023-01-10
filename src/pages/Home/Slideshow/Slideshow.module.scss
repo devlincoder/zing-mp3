@@ -2,6 +2,7 @@
   width: calc(100vw - var(--width-sidebar) - 2 * var(--padding-content));
   overflow: hidden;
   position: relative;
+  margin-bottom: 40px;
   &:hover {
     .btn {
       display: block;
